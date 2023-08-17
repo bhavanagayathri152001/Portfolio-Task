@@ -1,0 +1,242 @@
+.navbar{
+    background-color: rgb(58, 58, 58);
+    height: 75px;
+   
+}
+
+
+.portfolio{
+    color: aqua;
+    font-family: fangsong;
+    font-size: 27px;
+    font-weight: 600;
+}
+.website{
+    color: white;
+    font-family: fangsong;
+    font-size: 27px;
+    font-weight: 600;
+}
+.nav-item{
+    color: white;
+    font-family: "system-ui";
+    font-size: 17px;
+    font-weight: 500;
+    margin-right: 20px;
+}
+.bg-container{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+.home-container,
+.about-container,
+.skills-container1,
+.education-container,
+.contact-container{
+    height: 100vh;
+    width: 60vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.home-details{
+    display: flex;
+    flex-direction: row;
+}
+
+.intro{
+    color: white;
+    font-family: "Roboto";
+    font-size: 40px;
+    font-weight: 700;
+}
+.download-btn, .submit-button{
+    background-color: aqua;
+    color: rgb(247, 244, 246);
+    font-family: fangsong;
+    font-size: 15px;
+    font-weight: 600;
+    height: 40px;
+    width: fit-content;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+
+.image{
+    height: 200px;
+    width: 200px;
+    border-radius: 200px;
+}
+
+.heading{
+    color: aqua;
+    font-family: "Roboto";
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.about-heading{
+    color: white;
+    font-family: "Roboto";
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.about-description{
+    color: rgb(212, 210, 210);
+    font-family: "Roboto";
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.details-container{
+    display: flex;
+    flex-direction: row;
+    width: 60vw;
+}
+
+.title{
+    color: rgb(9, 248, 236);
+    font-family: "Roboto";
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.title-text{
+    color: white;
+    font-family: "Roboto";
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.skills-container2{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 60vw;
+}
+.skill-item{
+    margin-right: 30px;
+    margin-bottom: 20px;
+}
+.skill-heading{
+    color: white;
+    font-family: "Roboto";
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 0;
+}
+.button{
+    height: 13px;
+    width: 350px;
+    border: none;
+    border-radius: 2px;
+}
+
+.education-details{
+    max-height: 35vh;
+    width: 48vw;
+    background-color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.institute, .year{
+    color: black;
+    font-family: "Roboto";
+    font-size: 16px;
+    font-weight: 600;
+}
+.education{
+    color: black;
+    font-family: "Roboto";
+    font-size: 16px;
+    font-weight: 500;
+}
+.each-education{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.education-year{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.hr{
+    border: 1px solid black;
+}
+.name-inputs{
+    display: flex;
+    flex-direction: row;
+}
+.input-text, .text-area, .query-text{
+    height: 35px;
+    width: 250px;
+    border: none;
+    border-radius: 2px;
+    color: black;
+    font-family: "Roboto";
+    font-size: 14px;
+    font-weight: 500;
+    padding-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+.query-text{
+    width: 520px;
+}
+.text-area{
+    height: 120px;
+    width: 520px;
+   padding-bottom: 60px;
+}
+.footer-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+}
+.icon-container, .git-container, .insta-container{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 50px;
+    padding-top: 10px;
+    margin: 40px;
+}
+.icon {
+    font-size: 60px;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+
+  .linkedin-icon{
+    color: rgb(45, 45, 243);
+  }
+
+.git-icon{
+    color: black;
+    font-size: 100px;
+}
+
+.insta-container{
+    border-radius: 20px;
+}
+
+
+.insta-icon{
+    color: rgb(245, 20, 132);
+}
